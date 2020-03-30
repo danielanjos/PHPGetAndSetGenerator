@@ -1,0 +1,95 @@
+.container{
+    width: 100%;
+    max-width: 1120px;
+    height: 70vh;
+    margin: 0 auto;
+
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px  rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container .content section{
+    width: 100%;
+    max-width: 400px;
+}
+
+header{
+    width: 100%;
+    max-width: 1120px;
+    height: 10vh;
+    margin: 0 auto;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content form{
+    width: 100%;
+    max-width: 400px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 140px;
+    /* height: 60px; */
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16 24px;
+    /* line-height: 24px; */
+    resize: vertical;
+}
+
+.container .content form .input-group{
+    display: flex;
+    align-items: center;
+}
+
+.container .content form label{
+    font-size: 1.5em;
+}
+
+.button{
+    height: 40px;
+    background: #E02041;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    /* line-height: 20px; */
+    transition: filter 0.2s;
+
+    width: 160px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.button:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+/* .container header h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+    text-align: center;
+} */
