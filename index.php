@@ -23,14 +23,14 @@
         <section class="content">
             <form action="generator.php" method="POST" id="formGenerator">
                 <label for="txtClass">Class (<b>Attributes only</b>):</label>
-                
+
                 <textarea name="txtClass" id="txtClass" cols="55" rows="30" placeholder="<?= "private \$id;\nprotected \$type;\npublic \$whatever;" ?>"><?php if (isset($_SESSION["txtClass"])) echo $_SESSION["txtClass"]; ?></textarea>
 
                 <div class="input-group">
                     <input type="checkbox" name="generateConstructor" id="generateConstructor"><label for="generateConstructor"><small>Constructor</small></label>
                     <button type="submit" class="button">Generate</button>
                 </div>
-                
+
             </form>
 
             <section>
@@ -38,7 +38,9 @@
                 <textarea name="txtResult" id="txtResult" cols="55" rows="30"><?php if (isset($_SESSION["resultado"])) {
                                                                                     echo $_SESSION["resultado"];
                                                                                 } ?></textarea>
-                <button type="button" id="btnCopy" class="button" id="btnCopy">Copy</button>
+                <div class="input-group">
+                    <button type="button" id="btnCopy" class="button" id="btnCopy">Copy</button>
+                </div>
             </section>
         </section>
     </main>

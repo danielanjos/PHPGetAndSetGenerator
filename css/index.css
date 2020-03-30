@@ -54,7 +54,7 @@ textarea {
     resize: vertical;
 }
 
-.container .content form .input-group{
+.input-group{
     display: flex;
     align-items: center;
 }
